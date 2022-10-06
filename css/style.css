@@ -1,0 +1,52 @@
+*{
+    font-family: Helvetica;
+
+}
+
+body{
+    padding: 15px;
+    background: linear-gradient(95deg, rgba(245,184,230,1) 0%, rgba(247, 99, 156) 35%, rgba(255,82,153,1) 100%);
+}
+
+.hide{
+    display: none;
+}
+
+    a,input[type="submit"]{
+        background-color: #d846a0;
+        color: antiquewhite;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        opacity: 0.7;
+        border: none;
+        cursor: pointer;
+    }
+
+    a:hover,input[type="subimit"]{
+        opacity: 1;
+    }
+ 
+h1{
+    text-align: center;
+ }
+
+ form {
+    width: 300px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+  
+  form input,
+  form textarea {
+    padding: 5px;
+  }
